@@ -47,7 +47,7 @@
         "testDir": "C:/Users/henel/Main hub/Studies and art/Programming/YH Javascriptutvecklare/10. LIA 1 Zocom/Learn-Playwright",
         "testIgnore": [],
         "testMatch": [
-          "tests/02.recorded.test.ts"
+          "tests/03.basicInteractions.test.ts"
         ],
         "timeout": 30000
       }
@@ -60,13 +60,13 @@
   },
   "suites": [
     {
-      "title": "tests\\02.recorded.test.ts",
-      "file": "tests/02.recorded.test.ts",
+      "title": "tests\\03.basicInteractions.test.ts",
+      "file": "tests/03.basicInteractions.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "test",
+          "title": "",
           "ok": true,
           "tags": [],
           "tests": [
@@ -80,41 +80,40 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 8991,
+                  "duration": 7170,
                   "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-01-17T23:12:25.870Z",
-                  "attachments": [
+                  "stdout": [
                     {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\henel\\Main hub\\Studies and art\\Programming\\YH Javascriptutvecklare\\10. LIA 1 Zocom\\Learn-Playwright\\test-results\\tests-02.recorded-test\\test-finished-1.png"
+                      "text": "Please enter your Message\n"
                     },
                     {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\henel\\Main hub\\Studies and art\\Programming\\YH Javascriptutvecklare\\10. LIA 1 Zocom\\Learn-Playwright\\test-results\\tests-02.recorded-test\\video.webm"
+                      "text": "Before entering the data\n"
+                    },
+                    {
+                      "text": "After entering the data\n"
                     }
-                  ]
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-21T00:25:56.720Z",
+                  "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "14f1b56ad2733a0c2ac5-ba5abeac13a33ac1f2a9",
-          "file": "tests/02.recorded.test.ts",
-          "line": 6,
-          "column": 7
+          "id": "0c3f8417c65424f6cd42-da339ded6300c24df9d7",
+          "file": "tests/03.basicInteractions.test.ts",
+          "line": 3,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-01-17T23:12:24.732Z",
-    "duration": 11207.176,
+    "startTime": "2024-01-21T00:25:55.345Z",
+    "duration": 10072.618999999999,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
